@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    height: 100vh;
+    background-color:rgb(253,253,253);
+    position: relative;
+    isolation: isolate;
+}
+.navbar{
+    height: 15vh;
+    width: 85%;
+    margin: auto;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo img{
+    height: 70px;
+}
+.navlist{
+    display: flex;
+    gap: 50px;
+}
+.navlist li{
+    list-style: none;
+}
+.navlist a{
+    text-decoration: none;
+    font-size: 17px;
+    color: black;
+    letter-spacing: 1px;
+}
+.navlist a:hover{
+    color: #f15b3d;
+}
+.container::before{
+    content: "NIKE";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 480px;
+    font-family: "Bangers", system-ui;
+    letter-spacing: 20px;
+    color: rgb(191, 191, 191);
+    opacity: 0.3;
+    z-index: -1;
+}
+.shoe img{
+    height: 450px;
+}
+.hero{
+    height: 85vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    margin: auto;
+}
+.content h1{
+    color: rgb(22,22,22);
+    font-size: 100px;
+    font-family:  "Bangers", system-ui;
+    letter-spacing: 5px;
+}
+.content p{
+    font-size: 18px;
+    line-height: 30px;
+    max-width: 70%;
+    margin: 20px 0px;
+}
+.content button{
+    border: none;
+    background-color: #f15b3d;
+    padding: 17px 35px;
+    font-size: 18px;
+    color: white;
+}
+.content button:hover{
+    background-color: rgb(0,106,255);
+}
+.content .line{
+    width: 40%;
+    height: 10px;
+    background-color: orange;
+    margin: 40px 0px;
+    border-radius: 10px;
+}
